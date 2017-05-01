@@ -61,9 +61,9 @@
     var ctx = document.getElementById("myChart");
 
     var datasLabels = {
-      abstention_pourcentage:"Pourcentage d'abstention sur le total des votants inscrits",
+      abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits",
       vote_fn_pourcentage_exprimes:"Pourcentage des votes FN sur le total des votes exprimés",
-      vote_fn_pourcentage_inscrits:"Pourcentage des votes FN sur le total des votants inscrits",
+      vote_fn_pourcentage_inscrits:"Pourcentage des votes FN sur le total des inscrits",
       blancs_nuls_pourcentage:"Pourcentage des votes blancs et nuls",
       blancs_nuls_abstention_pourcentage:"Pourcentage des votes blancs, nuls et abstention",
     }
@@ -116,19 +116,16 @@
     var labels = [];
     var datasets = {
       abstention_pourcentage:{
-        label:"Abstention",
         data:[]
       },
       vote_fn_pourcentage_exprimes:{
-        label:"Vote en % des exprimés",
-        borderColor: "rgba(75,192,192,1)",
+        borderColor: "rgba(75,192,192,0.4)",
         backgroundColor: "rgba(75,192,192,0.4)",
         data:[]
       },
       vote_fn_pourcentage_inscrits:{
-        label:"Vote en % des inscrits",
         borderColor: "rgba(50,100,192,1)",
-        backgroundColor: "rgba(50,100,192,0.5)",
+        backgroundColor: "rgba(50,100,192,0.4)",
         data:[]
       }
     }
