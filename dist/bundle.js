@@ -16504,7 +16504,7 @@ axios.get('api/datas.json').then(function(result) {
 
   var datas = result.data
 
-  var ctx = document.getElementById("myChart")
+
 
   var datasLabels = {
     abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits",
@@ -16551,6 +16551,7 @@ axios.get('api/datas.json').then(function(result) {
     data.datasets.push(datasets[key]);
   }
 
+  var ctx = document.getElementById("lineChart")
   var myLineChart = new Chart(ctx, {
     type: 'line',
     data: data
