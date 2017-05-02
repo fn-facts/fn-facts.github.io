@@ -1,11 +1,9 @@
 var Chart = require('chart.js')
 var axios = require('axios');
 
-axios.get('api/datas.json').then(function(result) {
+axios.get('/api/votes.json').then(function(result) {
 
   var datas = result.data
-
-
 
   var datasLabels = {
     abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits",

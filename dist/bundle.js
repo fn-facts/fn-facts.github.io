@@ -16500,11 +16500,9 @@ process.umask = function() { return 0; };
 var Chart = __webpack_require__(147)
 var axios = __webpack_require__(127);
 
-axios.get('api/datas.json').then(function(result) {
+axios.get('/api/votes.json').then(function(result) {
 
   var datas = result.data
-
-
 
   var datasLabels = {
     abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits",
