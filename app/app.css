@@ -22,9 +22,20 @@ h1 {
 }
 
 .sources {
+  text-align:center;
+}
+
+.sources-liste {
+  list-style-type: none;
   text-align: center;
 }
 
 footer {
+  margin-top: 20px;
   text-align: center;
+}
+
+.licence {
+  text-align: center;
+  font-style: italic;
 }

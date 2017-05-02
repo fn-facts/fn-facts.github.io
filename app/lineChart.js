@@ -6,16 +6,23 @@ axios.get('/api/votes.json').then(function(result) {
   var datas = result.data
 
   var datasLabels = {
-    abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits",
+    abstention_pourcentage:"Pourcentage d'abstention sur le total des inscrits*",
     vote_fn_pourcentage_exprimes:"Pourcentage des votes FN sur le total des votes exprimés**",
     vote_fn_pourcentage_inscrits:"Pourcentage des votes FN sur le total des inscrits*",
-    blancs_nuls_pourcentage:"Pourcentage des votes blancs et nuls",
-    blancs_nuls_abstention_pourcentage:"Pourcentage des votes blancs, nuls et abstention",
+    blancs_nuls_pourcentage:"Pourcentage des votes blancs et nuls sur le total des inscrits*"
+    //blancs_nuls_abstention_pourcentage:"Pourcentage des votes blancs, nuls et abstention",
   }
 
   var labels = [];
   var datasets = {
-    abstention_pourcentage:{
+    blancs_nuls_pourcentage:{
+      data:[],
+      borderColor:"silver",
+      backgroundColor:"white"
+    },
+        abstention_pourcentage:{
+      borderColor: "gray",
+      backgroundColor: "rgba(0,0,0,0.1)",
       data:[]
     },
     vote_fn_pourcentage_exprimes:{
@@ -28,6 +35,7 @@ axios.get('/api/votes.json').then(function(result) {
       backgroundColor: "rgba(50,100,192,0.4)",
       data:[]
     }
+
   }
 
   for (var year in datas ) {
