@@ -1,0 +1,27 @@
+{
+  "name": "fn.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fn-facts/fn-facts.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fn-facts/fn-facts.github.io/issues"
+  },
+  "homepage": "https://github.com/fn-facts/fn-facts.github.io#readme",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "chart.js": "^2.5.0"
+  }
+}

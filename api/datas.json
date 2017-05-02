@@ -1,0 +1,44 @@
+{
+  "1988":{
+    "abstention_pourcentage":18.65,
+    "vote_fn_pourcentage_exprimes":14.38,
+    "vote_fn_pourcentage_inscrits": 11.48,
+    "blancs_nuls_pourcentage": 1.63,
+    "blancs_nuls_abstention_pourcentage":20.28
+  },
+  "1995":{
+    "abstention_pourcentage":21.62,
+    "vote_fn_pourcentage_exprimes":15.01,
+    "vote_fn_pourcentage_inscrits":11.43,
+    "blancs_nuls_pourcentage": 2.21,
+    "blancs_nuls_abstention_pourcentage": 23.83
+  },
+  "2002":{
+    "abstention_pourcentage":28.40,
+    "vote_fn_pourcentage_exprimes":16.86,
+    "vote_fn_pourcentage_inscrits":11.66,
+    "blancs_nuls_pourcentage": 2.42,
+    "blancs_nuls_abstention_pourcentage": 30.82
+  },
+  "2007":{
+    "abstention_pourcentage":16.23,
+    "vote_fn_pourcentage_exprimes":10.44,
+    "vote_fn_pourcentage_inscrits":8.62,
+    "blancs_nuls_pourcentage": 1.20,
+    "blancs_nuls_abstention_pourcentage": 17.43
+  },
+  "2012":{
+    "abstention_pourcentage":20.52,
+    "vote_fn_pourcentage_exprimes":17.88,
+    "vote_fn_pourcentage_inscrits":13.94,
+    "blancs_nuls_pourcentage": 1.52,
+    "blancs_nuls_abstention_pourcentage": 22.04
+  },
+  "2017":{
+    "abstention_pourcentage":22.23,
+    "vote_fn_pourcentage_exprimes":21.30,
+    "vote_fn_pourcentage_inscrits":16.14,
+    "blancs_nuls_pourcentage": 2.00,
+    "blancs_nuls_abstention_pourcentage": 24.23
+  }
+}
