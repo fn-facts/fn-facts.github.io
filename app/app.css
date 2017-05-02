@@ -1,0 +1,30 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align:center;
+}
+
+.glossaire {
+  text-align: center;
+  font-style: italic;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin:auto;
+}
+
+.canvas-wrapper {
+  max-width: 500px;
+  margin:auto;
+}
+
+.sources {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}

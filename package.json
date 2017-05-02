@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/fn-facts/fn-facts.github.io#readme",
   "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
     "webpack": "^2.4.1"
   },
   "dependencies": {
